@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MuseoDataSet" targetNamespace="http://tempuri.org/MuseoDataSet.xsd" xmlns:mstns="http://tempuri.org/MuseoDataSet.xsd" xmlns="http://tempuri.org/MuseoDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MuseoConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MuseoConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Da_Vinci_Code_Manager.Properties.Settings.GlobalReference.Default.MuseoConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vImprimirObraTableAdapter" GeneratorDataComponentClassName="vImprimirObraTableAdapter" Name="vImprimirObra" UserDataComponentName="vImprimirObraTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MuseoConnectionString (Settings)" DbObjectName="dbo.vImprimirObra" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, Obra, Descripcion, Artista, Estilo, [Tipo de Obra], [Fecha creación], [Alto (cm)], [Ancho (cm)], [Fecha registración], [Encargado del registro], Valuación, Destino, [Motivo de Ingreso] FROM dbo.vImprimirObra</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Obra" DataSetColumn="Obra" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Artista" DataSetColumn="Artista" />
+              <Mapping SourceColumn="Estilo" DataSetColumn="Estilo" />
+              <Mapping SourceColumn="Tipo de Obra" DataSetColumn="Tipo de Obra" />
+              <Mapping SourceColumn="Fecha creación" DataSetColumn="Fecha creación" />
+              <Mapping SourceColumn="Alto (cm)" DataSetColumn="Alto (cm)" />
+              <Mapping SourceColumn="Ancho (cm)" DataSetColumn="Ancho (cm)" />
+              <Mapping SourceColumn="Fecha registración" DataSetColumn="Fecha registración" />
+              <Mapping SourceColumn="Encargado del registro" DataSetColumn="Encargado del registro" />
+              <Mapping SourceColumn="Valuación" DataSetColumn="Valuación" />
+              <Mapping SourceColumn="Destino" DataSetColumn="Destino" />
+              <Mapping SourceColumn="Motivo de Ingreso" DataSetColumn="Motivo de Ingreso" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MuseoDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="MuseoDataSet" msprop:Generator_UserDSName="MuseoDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vImprimirObra" msprop:Generator_TableClassName="vImprimirObraDataTable" msprop:Generator_TableVarName="tablevImprimirObra" msprop:Generator_TablePropName="vImprimirObra" msprop:Generator_RowDeletingName="vImprimirObraRowDeleting" msprop:Generator_RowChangingName="vImprimirObraRowChanging" msprop:Generator_RowEvHandlerName="vImprimirObraRowChangeEventHandler" msprop:Generator_RowDeletedName="vImprimirObraRowDeleted" msprop:Generator_UserTableName="vImprimirObra" msprop:Generator_RowChangedName="vImprimirObraRowChanged" msprop:Generator_RowEvArgName="vImprimirObraRowChangeEvent" msprop:Generator_RowClassName="vImprimirObraRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Obra" msprop:Generator_ColumnVarNameInTable="columnObra" msprop:Generator_ColumnPropNameInRow="Obra" msprop:Generator_ColumnPropNameInTable="ObraColumn" msprop:Generator_UserColumnName="Obra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Artista" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnArtista" msprop:Generator_ColumnPropNameInRow="Artista" msprop:Generator_ColumnPropNameInTable="ArtistaColumn" msprop:Generator_UserColumnName="Artista" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Estilo" msprop:Generator_ColumnVarNameInTable="columnEstilo" msprop:Generator_ColumnPropNameInRow="Estilo" msprop:Generator_ColumnPropNameInTable="EstiloColumn" msprop:Generator_UserColumnName="Estilo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo_x0020_de_x0020_Obra" msprop:Generator_ColumnVarNameInTable="columnTipo_de_Obra" msprop:Generator_ColumnPropNameInRow="Tipo_de_Obra" msprop:Generator_ColumnPropNameInTable="Tipo_de_ObraColumn" msprop:Generator_UserColumnName="Tipo de Obra" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_x0020_creación" msprop:Generator_ColumnVarNameInTable="columnFecha_creación" msprop:Generator_ColumnPropNameInRow="Fecha_creación" msprop:Generator_ColumnPropNameInTable="Fecha_creaciónColumn" msprop:Generator_UserColumnName="Fecha creación" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Alto_x0020__x0028_cm_x0029_" msprop:Generator_ColumnVarNameInTable="_columnAlto__cm_" msprop:Generator_ColumnPropNameInRow="_Alto__cm_" msprop:Generator_ColumnPropNameInTable="_Alto__cm_Column" msprop:Generator_UserColumnName="Alto (cm)" type="xs:int" minOccurs="0" />
+              <xs:element name="Ancho_x0020__x0028_cm_x0029_" msprop:Generator_ColumnVarNameInTable="_columnAncho__cm_" msprop:Generator_ColumnPropNameInRow="_Ancho__cm_" msprop:Generator_ColumnPropNameInTable="_Ancho__cm_Column" msprop:Generator_UserColumnName="Ancho (cm)" type="xs:int" minOccurs="0" />
+              <xs:element name="Fecha_x0020_registración" msprop:Generator_ColumnVarNameInTable="columnFecha_registración" msprop:Generator_ColumnPropNameInRow="Fecha_registración" msprop:Generator_ColumnPropNameInTable="Fecha_registraciónColumn" msprop:Generator_UserColumnName="Fecha registración" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Encargado_x0020_del_x0020_registro" msprop:Generator_ColumnVarNameInTable="columnEncargado_del_registro" msprop:Generator_ColumnPropNameInRow="Encargado_del_registro" msprop:Generator_ColumnPropNameInTable="Encargado_del_registroColumn" msprop:Generator_UserColumnName="Encargado del registro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Valuación" msprop:Generator_ColumnVarNameInTable="columnValuación" msprop:Generator_ColumnPropNameInRow="Valuación" msprop:Generator_ColumnPropNameInTable="ValuaciónColumn" msprop:Generator_UserColumnName="Valuación" type="xs:double" minOccurs="0" />
+              <xs:element name="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" msprop:Generator_UserColumnName="Destino" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Motivo_x0020_de_x0020_Ingreso" msprop:Generator_ColumnVarNameInTable="columnMotivo_de_Ingreso" msprop:Generator_ColumnPropNameInRow="Motivo_de_Ingreso" msprop:Generator_ColumnPropNameInTable="Motivo_de_IngresoColumn" msprop:Generator_UserColumnName="Motivo de Ingreso" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vImprimirObra" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

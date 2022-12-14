@@ -1,0 +1,17 @@
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\VentanasMuseo.exe.config
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\VentanasMuseo.exe
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\VentanasMuseo.pdb
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Properties.Resources.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.exe
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.pdb
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Resource1.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Login.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.FormAux.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Deposito.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Exposicion.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Obras.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Visitas.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\VentanasMuseo.Menu.resources

@@ -1,0 +1,18 @@
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da Vinci Code Manager.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.Properties.Resources.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.Resource1.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\Da Vinci Code Manager.exe.config
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\Da Vinci Code Manager.exe
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\bin\Debug\Da Vinci Code Manager.pdb
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da Vinci Code Manager.exe
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da Vinci Code Manager.pdb
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da Vinci Code Manager.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmAux.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmMenu.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmDeposito.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmExposicion.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmObras.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmVisitas.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmLogin.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmImprimirObras.resources
+C:\Users\Usuario\Desktop\VentanasMuseo\VentanasMuseo\obj\Debug\Da_Vinci_Code_Manager.frmGuiaVirtual.resources
