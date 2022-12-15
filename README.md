@@ -8,4 +8,8 @@
 ## Members
 
 - Emmanuel Ayala - [LinkedIn](https://www.linkedin.com/in/emmanuel-alejandro-ayala/) 
+- Stefano Demat
+- Facundo Amaya
+- Oscar Ayala
+- Alonso Ary
 - German Bartoli - [LinkedIn](https://www.linkedin.com/in/bartoligerman497/) 
